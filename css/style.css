@@ -1,8 +1,10 @@
 /*general CSS rules for page*/
 
 html {
+  height: 100%;
   background-color: f4f4f8;
-  margin: 20px;
+  background-image: linear-gradient(#e6fffc, #ccfff9, #b3fff6, #99fff3);
+  margin: 0px;
   padding: 5px;
   font-family: Arial, Helvetica, sans-serif;
 }
