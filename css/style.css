@@ -12,5 +12,12 @@ h1 {
   font-size: 3em;
   color: #8274c4;
   text-shadow: 0.5px 0.5px gray;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  color: #6cc6bd;
+  font-size: 1.75em;
+  letter-spacing: 0.05em;
 }
