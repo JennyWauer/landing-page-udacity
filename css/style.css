@@ -10,7 +10,7 @@ html {
 }
 
 h1 {
-  font-family:'Bebas Neue', cursive ;
+  font-family: "Bebas Neue", cursive;
   font-size: 3em;
   color: #765b8b;
   text-shadow: 0.5px 0.5px gray;
@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   color: #1e2f48;
   font-size: 1.75em;
   letter-spacing: 0.05em;
