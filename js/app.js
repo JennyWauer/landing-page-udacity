@@ -1,14 +1,14 @@
 function populateNavList() {
-    const navBar = document.getElementById('nav-bar');
+    const navBar = document.querySelector('.navBar')
     /*array.from property learned from: https://www.gavsblog.com/blog/htmlcollection-foreach-loop-convert-object-to-array-javascript */
-    let sections = Array.from(document.getElementsByClassName('section'));
-    for (var i of sections) {
-        let content = document.getElementsByTagName('h2');
-        let navItem = document.createElement("li");
-        for (var y of content) {
-        navItem.innerHTML = content.textContent;
+    const sections = Array.from(document.querySelectorAll('.section'));
+    sections.forEach(function (item) {
+        const navItem = document.createElement('li');
+        const navContent = document.querySelector('h2')
+        navItem.innerHTML = navContent;
         navBar.appendChild(navItem);
-        }
-               
-    }
+    })
+
 }
+
+populateNavList();
